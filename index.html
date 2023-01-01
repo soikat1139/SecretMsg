@@ -10,8 +10,15 @@
 </head>
 <body>
 <div class="row">
-<div class="col s5 offset-s1">
-<div class="card-panel">
+<div class="col s7 offset-s1">
+    <div id="message-show" class="card-panel hide ">
+        <h1></h1>
+        <div>
+            <a href="./index.html">Create Your Own Secret Message</a>
+        </div>
+
+    </div>
+<div id="message-form" class="card-panel">
  <form >
 <label >
 Enter A Secret Message
@@ -20,7 +27,7 @@ Enter A Secret Message
 <button class="btn">Create</button>
  </form>
 </div>
-<div>
+<div id="link-form" class="card-panel hide">
 Share This Link With A Friend
 <input id="link-input"/>
 </div>
